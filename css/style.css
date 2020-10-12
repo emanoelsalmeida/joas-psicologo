@@ -79,7 +79,7 @@ header .color{
     margin: 2vh 0;
 }
 .p1{
-    background-color: white;
+    background-color: #ffffff;
 }
 .p1-box, .p2-box{
     display: flex;
@@ -316,7 +316,7 @@ iframe{
     margin-bottom: 2vh;
 }
 @media screen and (max-width:800px){
-    header{height: 45vh;
+    header{height: 50vh;
         background-size: 90vh 100vw;
         background-position: right;
     }
