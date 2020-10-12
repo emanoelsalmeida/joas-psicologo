@@ -78,6 +78,9 @@ header .color{
     width: 10vw;
     margin: 2vh 0;
 }
+.p1{
+    background-color: white;
+}
 .p1-box, .p2-box{
     display: flex;
     flex-direction: column;
