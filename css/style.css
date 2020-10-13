@@ -18,7 +18,7 @@ body{
     justify-self:center ;
 }
 header{
-    background: url(/background/back2.png) center center no-repeat;
+    background: url(/background/back3.png) center center no-repeat;
     background-repeat: no-repeat;
     background-size:cover;
     height: 100vh;
@@ -54,7 +54,7 @@ label #sign-one,  label #sign-two{
 .fa-bars{
    display: flex;
    align-items: flex-end;
-   background-color: black;
+   background-color:  #46bfe3;
    color: #46bfe3;
 }
 .center-header{
@@ -197,6 +197,7 @@ header .color{
     font-size: .9em;text-align: center;
 }
 .p2-item img, .center-box-p2 img{
+    height: 35vh;
     width: 25vw;
     border-top-left-radius:6px;
     border-top-right-radius:6px;
@@ -340,6 +341,7 @@ iframe{
     .box-header{
         width:100%;
         align-items:center;
+        justify-content: space-around;
         background-color:#ffffff;
         position: fixed;
         width: 100%;
@@ -352,7 +354,7 @@ iframe{
     header ul li a{
         text-decoration: none;
         color: white;
-        font-size: .6em;
+        font-size: .8em;
         font-weight: 200;
         display: block;
         margin: 0 auto;
@@ -383,7 +385,7 @@ iframe{
             line-height: 10px;
         }
         .fa-bars{
-            color: #ffffff;
+            color: black;
         }
         label #sign-one,  label #sign-two{
             position: fixed;
@@ -409,19 +411,19 @@ iframe{
     }
     .p1-box .color, .p2 .color{
         width: 80vw;height: 10vh;margin: 0 2vw;font-size: .8em;
-        display: block; margin: 0 auto;
+        display: block; margin: 3vh auto;
     }
-.p1-box{ padding: 1vh 0;}
+    .p1-box{ padding: 1vh 0;}
     .p1-box h1, .p2 h1{font-size: 2em; }
     .box-formacao{ flex-direction: column; }
     .box-formacao-item{ margin: 4vh 0;}
     .p2-box{flex-direction: column;}
     .p2-item, .center-box-item{
-        width: 100vw;
+        width: 100vw; margin: 3vh 0;
     }
     .p4-box{grid-template-columns: 90%;}
-    .p2-item img, .center-box-item img, .instragam, .p4 iframe{width: 90vw;}
-    .center-box-item{ display: block;margin: 0 auto;}
+    .p2-item img ,.instragam, .p4 iframe{width: 90vw;}
+    .center-box-item img{ width: 90vw; display: block;margin: 0 auto;}
     .box-p3 h1{width: 80vw; font-size: 1.4em;}
     .p3-item{width: 80vw; font-size: .9em;}
 }    
