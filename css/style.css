@@ -23,7 +23,7 @@ body{
     justify-self:center ;
 }
 header{
-    background: url(/back2.jpg)  no-repeat;
+    background: url(/back4.png)  no-repeat;
     background-repeat: no-repeat;
     background-size:cover;
     height: 100vh;
@@ -347,7 +347,8 @@ iframe{
 
 @media screen and (max-width:800px){
     header{
-        width: 100vw; background: url(/back2.jpg) center center no-repeat;background-size:cover;
+        background-size: 100vh 70vh;
+         background-position: right;
     }
     header h1{font-size: 1em;padding-top: 15vh;padding-left: 3vw; margin: 0vh 1vw 0 0;width: 40%;
     }
@@ -359,7 +360,7 @@ iframe{
         background-color:#ffffff;
         position: fixed;
         width: 100%;
-        height: 11vh;
+        height: 15vh;
         z-index: 14;
     }
     .box-header img{
