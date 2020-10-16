@@ -14,7 +14,7 @@ body{
     position: fixed;;
     width: 100%;
     z-index: 1;
-    border: 2px solid #e6e6e6;
+    border-bottom: 2px solid #e6e6e6;
 }
 .box-header img{
     width:15vw;
@@ -58,8 +58,7 @@ header{
 label #sign-one,  label #sign-two{
     font-size: 1em;
     color: #46bfe3;
-    float: right;
-    margin-right: 30px;
+    float: center;
     cursor: pointer;
     display: none;
     z-index: 13;
@@ -355,29 +354,36 @@ iframe{
     margin-bottom: 2vh;
 }
 
+
 @media screen and (max-width:800px){
 
 
     header{
         background-size: cover;
-        background-position: center center;
-        height: 40vh;
+        background-position:center;
+        height: 50vh;
     }
     header h1{font-size: .8em;padding-top: 15vh;padding-left: 3vw; margin: 0vh 1vw 0 0;width: 40%;
     }
     
     .box-header{
         align-items:center;
-        justify-content: flex-start;
+        justify-content: space-between;
         background-color:#ffffff;
         position: fixed;
         width: 100%;
-        height: 10vh;
-        z-index: 14;
+        height: auto;
+        z-index: 12;
         margin-right: 0;
     }
     .box-header img{
         width: 45vw;
+        margin: 1vw;
+    }
+    .box-header ul{
+        display: flex;
+        flex-direction: column;
+        padding-top: 3vh;
     }
     .box-header ul li a{
         text-decoration: none;
@@ -387,14 +393,12 @@ iframe{
         display: block;
         margin: 0 auto;
     }
-    /*
-    */
-        .fa-bars{
+ .fa-bars{
         }
-        label #sign-one{
+label #sign-one{
                 display: block;
             }
-        nav ul{
+ nav ul{
             position: fixed;
             width: 100%;
             height: 40vh;
@@ -403,7 +407,7 @@ iframe{
             left:-100%;
             text-align: center;
             transition: .5s;
-            z-index: 13;
+            z-index: 15;
             margin-top: 20px;
             align-self:center;
         }
@@ -418,6 +422,7 @@ iframe{
         label #sign-one,  label #sign-two{
             position: fixed;
             z-index: 11;
+            margin: -30px;
         }
         #res-menu:checked ~ ul{
             left: 0;
@@ -428,11 +433,7 @@ iframe{
         #res-menu:checked ~ #sign-two{
             display: block;
         }
-    .center-header{
-        transform: translate(0,0%);
-        display: flex;
-        flex-direction: column;
-        justify-items: flex-end;
+    .center-header{transform: translate(0,0%); display: flex; flex-direction: column; justify-items: flex-end;
     }
     header .color{
         width: 50vw;height:5vh;margin: 2vh 2vw;font-size: .5em;
@@ -459,9 +460,9 @@ iframe{
     .p2-item img,.center-box-p2 img{width: 100vw;height: auto;}
      .instragam , .p4 iframe{width: 90vw;}
     
-   .center-box-item img{ width: 100vw; display: block;margin: 0 auto; height: auto;}
-    .p3-item{ font-size: .9em;}
-    .p1 h4{font-size: .8em;}
-    .p1 h3, .p2 h3,.p4 h3{font-size:.8em;}
-    .p1 p, .p2 p,.p3 p{font-size: .7em;}
+   .center-box-item img{ width: 100vw; display: block;margin: 0 auto; height: ;}
+    .p3-item{ font-size: 1em;}
+    .p1 h4{font-size: 1em;}
+    .p1 h3, .p2 h3,.p4 h3{font-size:.9em;}
+    .p1 p, .p2 p,.p3 p{font-size: .8em;}
 }    
