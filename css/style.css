@@ -422,7 +422,8 @@ label #sign-one{
         label #sign-one,  label #sign-two{
             position: fixed;
             z-index: 11;
-            margin: -30px;
+            margin-left: -30px;
+            align-self: center;
         }
         #res-menu:checked ~ ul{
             left: 0;
