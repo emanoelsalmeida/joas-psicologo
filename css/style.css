@@ -434,7 +434,7 @@ label #sign-one{
         #res-menu:checked ~ #sign-two{
             display: block;
         }
-    .center-header{transform: translate(0,0%); display: flex; flex-direction: column; justify-items: flex-end;
+    .center-header{transform: translate(0,20%); display: flex; flex-direction: column; justify-items: flex-end;
     }
     header .color{
         width: 50vw;height:5vh;margin: 2vh 2vw;font-size: .5em;
@@ -461,7 +461,7 @@ label #sign-one{
     .p2-item img,.center-box-p2 img{width: 100vw;height: auto;}
      .instragam , .p4 iframe{width: 90vw;}
     
-   .center-box-item img{ width: 100vw; display: block;margin: 0 auto; height: ;}
+   .center-box-item img{ width: 100vw; display: block;margin: 0 auto;}
     .p3-item{ font-size: 1em;}
     .p1 h4{font-size: 1em;}
     .p1 h3, .p2 h3,.p4 h3{font-size:.9em;}
