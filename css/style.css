@@ -24,11 +24,11 @@ body{
 .box-header nav{
 }
 header{
-    background: url(/background/back13.png)  center;
+    background: url(/background/back13.png)  center center;
     background-repeat: no-repeat;
     background-size:cover;
     height: 100vh;
-    animation: drop linear .9s ;
+    animation: drop linear 1s ;
 }
     @keyframes drop{
         from{
@@ -453,7 +453,7 @@ label #sign-one{
     .box-p3{grid-template-columns: 100%;justify-content: center;}
     .p4-box{grid-template-columns: 90%;}
     .p3-item img{
-        width: 100vw; height: 40vh;
+        width: 100vw; height: auto;
     }
     .p3-item h1{text-align: center; width: 100vw;font-size: 1em;}
     .p3-item p{width: 90vw; display: block; margin: 0 auto; margin-bottom: 2vh;font-size: .8em;}
